@@ -21,3 +21,5 @@
 | [`mc-verify-change`](skills/mc-verify-change/SKILL.md) | 选择验证方式、标注替代环境并记录证据。 |
 
 项目采用 [MIT 许可证](LICENSE)。变更记录见 [CHANGELOG.md](CHANGELOG.md)。
+
+补充经验或新增技能前，先读 [CONTRIBUTING.md](CONTRIBUTING.md)：它说明经验条目的五段结构、为什么不留具体项目名，以及提交前要跑的内容扫描。
