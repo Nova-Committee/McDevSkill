@@ -4,8 +4,8 @@
 
 ## 安装
 
-1. 克隆或解压本仓库，找到 `skills/` 中的七个 `mc-*` 目录。
-2. 复制整个 `mc-*` 目录，保留 `SKILL.md` 与 `references/` 的相对位置。在 DeepSeek Harness 中，用户级可放到 `$DSH_HOME/skills/`，默认是 `~/.dsh/skills/`。限定在某个项目时，可放到项目根目录的 `.dsh/skills/` 或 `.agents/skills/`。例如，项目级入口应位于 `.agents/skills/mc-discipline/SKILL.md`。安装前检查目标中是否已有同名技能。
+1. 克隆或解压本仓库，找到 `skills/` 中的 `mc-*` 目录。需要通过 MCP 操作真实客户端时，可加装 `mc-client-harness`。
+2. 复制选定技能的整个目录，保留 `SKILL.md` 和附属文件的相对位置。在 DeepSeek Harness 中，用户级可放到 `$DSH_HOME/skills/`，默认是 `~/.dsh/skills/`。限定在某个项目时，可放到项目根目录的 `.dsh/skills/` 或 `.agents/skills/`。例如，项目级入口应位于 `.agents/skills/mc-discipline/SKILL.md`。安装前检查目标中是否已有同名技能。
 3. 在目标项目的会话中确认技能目录能找到 `mc-discipline`，然后让代理加载它，例如「用 `mc-discipline` 排查这个模组在跨版本后打开界面的问题」。其他 Agent Skills 加载器使用它自己的技能目录。
 
 ## 技能
@@ -19,6 +19,7 @@
 | [`mc-server-state`](skills/mc-server-state/SKILL.md) | 核对服务端权威状态、会话、交易和维度。 |
 | [`mc-ui-runtime`](skills/mc-ui-runtime/SKILL.md) | 排查 GUI、HUD、输入焦点、布局和槽位。 |
 | [`mc-verify-change`](skills/mc-verify-change/SKILL.md) | 选择验证方式、标注替代环境并记录证据。 |
+| [`mc-client-harness`](skills/mc-client-harness/SKILL.md) | 可选。通过 MCP 操作真实客户端、取证并清理会话。 |
 
 项目采用 [MIT 许可证](LICENSE)。变更记录见 [CHANGELOG.md](CHANGELOG.md)。
 

@@ -16,6 +16,7 @@ description: Minecraft 模组开发、修复、迁移或评审的入口。用于
 | 变化 | 读取 |
 | --- | --- |
 | 选择验证深度、解释证据或收尾清理 | `mc-verify-change` |
+| 已有 MCP 驱动的真实客户端，需要操作、截图取证或清理会话 | `mc-client-harness`（可选） |
 | 注册/定义增删、数据包、脚本优先级、存档、协议或发布 | `mc-data-evolution` |
 | 权限、会话、交易、网络权威、维度或生命周期 | `mc-server-state` |
 | GUI/HUD、模板、焦点、布局、槽位、弹层或相机输入 | `mc-ui-runtime` |
